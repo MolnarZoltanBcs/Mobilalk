@@ -36,7 +36,7 @@ public class NotificationHandler {
 
     public void send(String message){
         NotificationCompat.Builder builder = new NotificationCompat.Builder(mContext, CHANNEL_ID)
-                .setContentTitle("M.I.L.F Application")
+                .setContentTitle("M.I.L.F. Application")
                 .setContentText(message).setSmallIcon(R.drawable.ic_launcher_foreground);
         this.mManager.notify(NOTIFICATIN_ID, builder.build());
     }

@@ -81,7 +81,7 @@ public class ProfileActivity extends AppCompatActivity {
                 if(task.isSuccessful()){
                     Toast.makeText(ProfileActivity.this, "Successfully saved", Toast.LENGTH_LONG).show();
                     try {
-                        Thread.sleep(2000);
+                        Thread.sleep(1000);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
