@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainPageActivity">
+
+    <TextView
+        android:id="@+id/placeholderTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:text="placeholder"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <Button
+        android:id="@+id/visitProfileButton"
+        android:layout_width="248dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:onClick="create_form"
+        android:text="@string/create_a_form"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/placeholderTextView"
+        app:layout_constraintVertical_bias="0.045" />
+
+    <Button
+        android:id="@+id/FillFormButton"
+        android:layout_width="248dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:onClick="fill_form"
+        android:text="@string/fill_form"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/visitProfileButton"
+        app:layout_constraintVertical_bias="0.074" />
+
+    <Button
+        android:id="@+id/FillMyFormButton"
+        android:layout_width="248dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:onClick="fill_my_form"
+        android:text="Fill out my latest form"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FillFormButton"
+        app:layout_constraintVertical_bias="0.098" />
+
+    <Button
+        android:id="@+id/FillLowestFillsFormButton"
+        android:layout_width="248dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:onClick="fill_lowest_fills_form"
+        android:text="Fill out the least popular form"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FillMyFormButton"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <Button
+        android:id="@+id/DeleteAccountButton"
+        android:layout_width="248dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:onClick="delete_forms"
+        android:text="@string/delete_account"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/FillFormButton"
+        app:layout_constraintVertical_bias="0.589" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="248dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:onClick="log_out"
+        android:text="Log out"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DeleteAccountButton"
+        app:layout_constraintVertical_bias="0.666" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Man, I Love Forms</string>
+    <string name="log_in">Log in</string>
+    <string name="password">Password</string>
+    <string name="password_again">Password again</string>
+    <string name="new_password">New Password</string>
+    <string name="new_password_again">New Password Again</string>
+    <string name="username">Username</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="cancel">Cancel</string>
+    <string name="visit_profile">Visit my Profile</string>
+    <string name="fill_form">Fill Out A Random Form</string>
+    <string name="delete_account">Delete My Forms</string>
+    <string name="back">Back</string>
+    <string name="save_changes">Save Form</string>
+    <string name="submit">Submit</string>
+    <string name="create_a_form">Create a Form</string>
+</resources>

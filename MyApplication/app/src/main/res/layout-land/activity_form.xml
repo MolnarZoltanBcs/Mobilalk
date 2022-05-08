@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormActivity">
+
+
+    <TextView
+        android:id="@+id/formTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:text="Form Title"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.002"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/viewQ1"
+        android:layout_width="254dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:ems="6"
+        android:text="Q1"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/backButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/formTitleTextView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editAnswer1"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:inputType="textLongMessage"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/saveChangesButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewQ1"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/viewQ2"
+        android:layout_width="254dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:ems="6"
+        android:text="Q2"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/backButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAnswer1"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <EditText
+        android:id="@+id/editAnswer2"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:inputType="textLongMessage"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewQ2"
+        app:layout_constraintVertical_bias="0.015" />
+
+    <TextView
+        android:id="@+id/viewQ3"
+        android:layout_width="254dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:ems="6"
+        android:text="Q3"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAnswer2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/editAnswer3"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:inputType="textLongMessage"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewQ3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/viewQ4"
+        android:layout_width="254dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:ems="6"
+        android:text="Q4"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/backButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAnswer3"
+        app:layout_constraintVertical_bias="0.035" />
+
+    <EditText
+        android:id="@+id/editAnswer4"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:inputType="textLongMessage"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/viewQ4"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/viewQ5"
+        android:layout_width="254dp"
+        android:layout_height="20dp"
+        android:ems="6"
+        android:text="Q5"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/editAnswer5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAnswer4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/editAnswer5"
+        android:layout_width="254dp"
+        android:layout_height="wrap_content"
+        android:ems="6"
+        android:inputType="textLongMessage"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.033"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editAnswer4"
+        app:layout_constraintVertical_bias="0.843" />
+
+    <Button
+        android:id="@+id/saveChangesButton"
+        android:layout_width="248dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:onClick="submit"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toTopOf="@+id/backButton"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/viewQ1"
+        app:layout_constraintVertical_bias="0.419" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="248dp"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:onClick="back"
+        android:text="@string/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/formTitleTextView"
+        app:layout_constraintVertical_bias="0.699" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
